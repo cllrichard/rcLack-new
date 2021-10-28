@@ -3,6 +3,7 @@ package com.example.rclack.level.current;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
+import java.util.concurrent.ConcurrentHashMap;
 
 //Collections.synchronizedList(new ArrayList<>()); 保存线程不安全的ArrayList
 public class SynList {
