@@ -7,7 +7,7 @@ import java.util.PriorityQueue;
 public class Solution {
 
     public static void main(String[] args) {
-        new Solution().smallestDistancePair(new int[]{1, 3, 1}, 1,false);
+        new Solution().smallestDistancePair(new int[]{1, 6, 1}, 3,false);
     }
 
     public int smallestDistancePair(int[] nums, int k, boolean trus) {
