@@ -11,7 +11,6 @@ public class LifecycleSourceXmlApplication {
 
     public static void main(String[] args) {
         ClassPathXmlApplicationContext ctx = new ClassPathXmlApplicationContext();
-//        ctx.getBean("day1115/personAndCat.xml");
         ctx.setConfigLocation("day1115/personAndCat.xml");
         System.out.println("===============准备刷新IOC容器=============");
         ctx.refresh();

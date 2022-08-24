@@ -1,9 +1,11 @@
 package com.example.rclack.spring.day1113.three.bean;
 
+import lombok.Data;
+import lombok.NonNull;
+@Data
 public class Person {
 
     private String name;
-
 
 
     @Override
